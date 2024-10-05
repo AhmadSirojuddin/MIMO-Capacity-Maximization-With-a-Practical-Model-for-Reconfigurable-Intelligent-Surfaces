@@ -13,6 +13,7 @@ Those two files call the cores functions:
 - `Judd22.py` -> my previous work based on ideally-modeled RIS. Please refer to https://github.com/AhmadSirojuddin/Low-Complexity-Sum-Capacity-Maximization-for-Intelligent-Reflecting-Surface-Aided-MIMO-Systems 
 - `Boyu20.py` -> one benchmark paper
 - `Wang21.py` -> one benchmark paper
+
 Disclaimer: the last two codes are self-remaking. If you want the authors' original code, please email them directly.
 
 I am open to research collaborations. Please contact me at: sirojuddin@its.ac.id 
