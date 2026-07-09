@@ -54,7 +54,7 @@ def main(F: np.ndarray, G: np.ndarray, H: np.ndarray, tx_pow: np.ndarray, noise_
     # ----------- the water filling algorithm ----------- #
     ones = np.ones(U)
     zeros = np.zeros(U)
-    c = np.square(lambdaa) / noise_pow
+    c = (lambdaa**2) / noise_pow
     p, obj_val, _, _ = water_filling(ones, ones, c, zeros, ones, tx_pow, wf_loop.tol_out, wf_loop.iterlim_out)
     T = mat_VH.T.conj() @ np.diag(np.sqrt(p))
 
